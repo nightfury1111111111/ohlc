@@ -1,0 +1,19 @@
+[package]
+name = "server-ohlcsaver"
+version = "0.1.0"
+authors = ["JB Dumont <jbmdumont@gmail.com>"]
+
+[dependencies]
+ws = { version = "*", git = "https://github.com/housleyjk/ws-rs", features =["ssl"]}
+serde_json = "1.0"
+serde_derive = "*"
+clap ="*"
+serde = "*"
+json = "*"
+chrono = "0.4"
+lazy_static = "1.0"
+ansi_term="*"
+futures = "0.1"
+hyper = "0.11"
+tokio-core = "0.1"
+reqwest ="*"
